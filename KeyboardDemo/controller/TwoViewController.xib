@@ -11,7 +11,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TwoViewController">
             <connections>
-                <outlet property="scrollView" destination="s5g-Pv-AHw" id="f14-Kd-yRI"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="edD-83-Y8d"/>
             </connections>
         </placeholder>

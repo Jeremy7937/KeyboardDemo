@@ -32,9 +32,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor lightGrayColor];
     
-    UIView *testView = [[UIView alloc] initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, 40)];
+    UIView *testView = [[UIView alloc] initWithFrame:CGRectMake(0, 74, self.view.bounds.size.width, 40)];
     testView.backgroundColor = [UIColor redColor];
     [self.view addSubview:testView];
     
@@ -42,9 +42,6 @@
     textfield.placeholder = @"测试测试。。";
     textfield.borderStyle = UITextBorderStyleRoundedRect;
     [self.view addSubview:textfield];
-    
-    [IQKeyboardManager sharedManager].enableAutoToolbar = NO;
-    [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;
     
 }
 

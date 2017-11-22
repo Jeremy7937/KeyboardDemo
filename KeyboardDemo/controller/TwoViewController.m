@@ -9,7 +9,6 @@
 #import "TwoViewController.h"
 
 @interface TwoViewController ()
-@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end
 
